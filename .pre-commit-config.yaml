@@ -11,4 +11,8 @@ repos:
 -   repo: https://github.com/pre-commit/pygrep-hooks
     rev: v1.10.0
     hooks:
-    - id: python-no-eval
+    -   id: python-no-eval
+-   repo: https://github.com/psf/black
+    rev: 24.4.2 # Use the ref you want to point at
+    hooks:
+    -   id: black
